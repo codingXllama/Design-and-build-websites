@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>All the Lists in HTML</title>
+</head>
+
+<body>
+    <h3>Purpose: To Display the List Types in HTML</h3>
+    <p>These lists include <q>Ordered,Unordered,and Definition Lists</q></p>
+    <h3>Note All list types begin with the li tag</h3>
+    <br>
+    <p><b>Ordered List:</b>When Each item of the list is Numbered</p>
+    <p><b>Element Used:</b> <abbr title="<ol>"><i>Hover Me</i></abbr></p>
+    <p><strong>Use Cases:</strong> steps for a receipt, a to-do list, class notes,etc.</p>
+    <p>Example: Suppose you have a shopping list as follows:</p>
+    <ol>
+        <li>Get 12 Eggs</li>
+        <li>Buy Milk</li>
+        <li>Buy Cheese</li>
+        <li><s>Buy Soda</s></li>
+    </ol>
+    <hr />
+    <p><b>Unordered lists:</b> A List that contains list items that begins with a bullet point rather than a number.
+    </p>
+    <p><b>Element Used:</b> <abbr title="<ul>"><i>Hover Me</i></abbr></p>
+    <p><strong>Use Cases:</strong> steps for a receipt, a to-do list, class notes,etc.</p>
+    <p>Example: Suppose you are taking notes for a meeting: </p>
+    <ul>
+        <li>Add CSS to my HTML</li>
+        <li>Comment my code</li>
+        <li><s>Check my peers code</s></li>
+    </ul>
+    <hr />
+    <p><b>Definition List:</b>When Each item(term) is given a specific definition</p>
+    <p><b>Element Used:</b> <abbr title="<dl> (definition list),<dt> (definition term),<dd> (definition of the term)"><i>Hover
+                Me</i></abbr></p>
+    <p><strong>Use Cases:</strong> Making a new dictionary of words to understand.</p>
+    <p>Example: Suppose you're asked to find the definition of life: </p>
+    <dl>
+        <dt>Life:</dt>
+        <dd>A big ball of problems, ready to be solved.</dd>
+    </dl>
+    <hr />
+    <h3>Using Nested Lists</h3>
+    <p><strong>How to create a subList?</strong> You simply add another li element inside either ul or ol or dl </p>
+    <p>Here is an example of using 3 lists type unordered and ordered, and dictionary list </p>
+<!-- Unordered list  -->
+    <ul>
+        <li>Favorite Foods
+            <!-- ordered list -->
+            <ol>
+                <li>Cheese</li>
+                <li>Noodles</li>
+                <li>Pizza</li>
+            </ol>
+        </li>
+        <ol>
+            <!-- dictionary list -->
+            <dl>
+                <ol>
+                    <li>
+                        <dt>Scale</dt></li>
+                    <li>A device that is used to measure how fat I'am not</dd>
+                        <dd>A device that is used to measure how much more you need to starve your self.</dd>
+                </ol>
+            </dl>
+    </ul>
+
+</body>
+
+</html>
